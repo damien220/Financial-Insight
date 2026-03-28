@@ -1,0 +1,8 @@
+2026-03-27 18:58:00 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZNOTREAL"}}}
+2026-03-27 18:58:00 | ERROR    | yfinance | $ZZZZZZZNOTREAL: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-27 19:29:50 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZNOTREAL"}}}
+2026-03-27 19:29:50 | ERROR    | yfinance | $ZZZZZZZNOTREAL: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-28 18:12:44 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZNOTREAL"}}}
+2026-03-28 18:12:45 | ERROR    | yfinance | $ZZZNOTREAL: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-28 18:13:30 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZNOTREAL"}}}
+2026-03-28 18:13:30 | ERROR    | yfinance | $ZZZZZZZNOTREAL: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")

@@ -1,0 +1,33 @@
+services:
+  dashboard:
+    build: .
+    container_name: financial-insight-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - app-data:/app/data
+      - app-logs:/app/logs
+    env_file:
+      - .env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+  scheduler:
+    build: .
+    container_name: financial-insight-scheduler
+    command: ["python", "app.py", "--schedule"]
+    volumes:
+      - app-data:/app/data
+      - app-logs:/app/logs
+    env_file:
+      - .env
+    restart: unless-stopped
+
+volumes:
+  app-data:
+  app-logs:

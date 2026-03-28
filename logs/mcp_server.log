@@ -1,0 +1,134 @@
+2026-03-24 19:20:19 | INFO     | config | CONFIG_LOADED | Source: /workspaces/Prj_utils/Financial_Insight/.env
+2026-03-24 19:20:19 | INFO     | config | Configuration initialization complete
+2026-03-24 19:20:19 | INFO     | financial_insight | DataStore ready  db=data/prices.db
+2026-03-24 19:20:19 | INFO     | financial_insight | Tools loaded: ['gold_price', 'stock_price']
+2026-03-25 18:43:06 | INFO     | config | CONFIG_LOADED | Source: /workspaces/Prj_utils/Financial_Insight/.env
+2026-03-25 18:43:06 | INFO     | config | Configuration initialization complete
+2026-03-25 18:43:06 | INFO     | financial_insight | DataStore ready  db=data/prices.db
+2026-03-25 18:43:06 | INFO     | financial_insight | Tools loaded: ['gold_price', 'stock_price', 'financial_news', 'data_aggregator']
+2026-03-25 19:09:57 | INFO     | config | CONFIG_LOADED | Source: /workspaces/Prj_utils/Financial_Insight/.env
+2026-03-25 19:09:57 | INFO     | config | Configuration initialization complete
+2026-03-25 19:09:57 | INFO     | financial_insight | DataStore ready  db=data/prices.db
+2026-03-25 19:09:57 | INFO     | financial_insight | Tools loaded: ['gold_price', 'stock_price', 'financial_news', 'data_aggregator', 'llm_insight']
+2026-03-27 18:54:57 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:54:57 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:54:57 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:55:00 | INFO     | scheduler | Price refresh started for 4 assets
+2026-03-27 18:55:01 | INFO     | scheduler | Price updated: GC=F $4555.4
+2026-03-27 18:55:02 | INFO     | scheduler | Price updated: AAPL $248.75
+2026-03-27 18:55:03 | INFO     | scheduler | Price updated: MSFT $357.8
+2026-03-27 18:55:04 | INFO     | scheduler | Price updated: SPY $635.36
+2026-03-27 18:55:04 | INFO     | scheduler | News refresh started for 4 assets
+2026-03-27 18:55:08 | INFO     | scheduler | News updated: GC=F (5 articles)
+2026-03-27 18:55:12 | INFO     | scheduler | News updated: AAPL (5 articles)
+2026-03-27 18:55:23 | INFO     | scheduler | News updated: MSFT (5 articles)
+2026-03-27 18:55:26 | INFO     | scheduler | News updated: SPY (5 articles)
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Added job "Price refresh" to job store "default"
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Added job "News refresh" to job store "default"
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Added job "Insight refresh" to job store "default"
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Scheduler started
+2026-03-27 18:56:18 | INFO     | scheduler | Scheduler started  price=5m  news=15m  insight=60m  market_hours_only=True
+2026-03-27 18:56:18 | INFO     | scheduler | Scheduler stopped
+2026-03-27 18:56:18 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-03-27 18:56:18 | INFO     | scheduler | Price refresh started for 4 assets
+2026-03-27 18:56:20 | INFO     | scheduler | Price updated: GC=F $4552.5
+2026-03-27 18:56:21 | INFO     | scheduler | Price updated: AAPL $248.73
+2026-03-27 18:56:21 | INFO     | scheduler | Price updated: MSFT $357.88
+2026-03-27 18:56:22 | INFO     | scheduler | Price updated: SPY $635.35
+2026-03-27 18:56:22 | INFO     | scheduler | News refresh started for 4 assets
+2026-03-27 18:56:25 | INFO     | scheduler | News updated: GC=F (5 articles)
+2026-03-27 18:56:32 | INFO     | scheduler | News updated: AAPL (5 articles)
+2026-03-27 18:56:35 | INFO     | scheduler | News updated: MSFT (5 articles)
+2026-03-27 18:56:40 | INFO     | scheduler | News updated: SPY (5 articles)
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Added job "Price refresh" to job store "default"
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Added job "News refresh" to job store "default"
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Added job "Insight refresh" to job store "default"
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Scheduler started
+2026-03-27 18:57:02 | INFO     | scheduler | Scheduler started  price=5m  news=15m  insight=60m  market_hours_only=True
+2026-03-27 18:57:02 | INFO     | scheduler | Scheduler stopped
+2026-03-27 18:57:02 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-03-27 18:57:02 | INFO     | scheduler | Price refresh started for 4 assets
+2026-03-27 18:57:03 | INFO     | scheduler | Price updated: GC=F $4549.6
+2026-03-27 18:57:04 | INFO     | scheduler | Price updated: AAPL $248.79
+2026-03-27 18:57:05 | INFO     | scheduler | Price updated: MSFT $357.83
+2026-03-27 18:57:06 | INFO     | scheduler | Price updated: SPY $635.35
+2026-03-27 18:57:06 | INFO     | scheduler | News refresh started for 4 assets
+2026-03-27 18:57:09 | INFO     | scheduler | News updated: GC=F (5 articles)
+2026-03-27 18:57:13 | INFO     | scheduler | News updated: AAPL (5 articles)
+2026-03-27 18:57:17 | INFO     | scheduler | News updated: MSFT (5 articles)
+2026-03-27 18:57:20 | INFO     | scheduler | News updated: SPY (5 articles)
+2026-03-27 18:58:00 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZNOTREAL"}}}
+2026-03-27 18:58:00 | ERROR    | yfinance | $ZZZZZZZNOTREAL: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-27 18:59:14 | INFO     | config | CONFIG_LOADED | Source: /workspaces/Prj_utils/Financial_Insight/.env
+2026-03-27 18:59:14 | INFO     | config | Configuration initialization complete
+2026-03-27 19:01:05 | INFO     | config | CONFIG_LOADED | Source: /workspaces/Prj_utils/Financial_Insight/.env
+2026-03-27 19:01:05 | INFO     | config | Configuration initialization complete
+2026-03-27 19:01:08 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 19:01:08 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 19:01:08 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 19:01:08 | INFO     | apscheduler.scheduler | Added job "Price refresh" to job store "default"
+2026-03-27 19:01:08 | INFO     | apscheduler.scheduler | Added job "News refresh" to job store "default"
+2026-03-27 19:01:08 | INFO     | apscheduler.scheduler | Added job "Insight refresh" to job store "default"
+2026-03-27 19:01:08 | INFO     | apscheduler.scheduler | Scheduler started
+2026-03-27 19:01:08 | INFO     | scheduler | Scheduler started  price=5m  news=15m  insight=60m  market_hours_only=True
+2026-03-27 19:01:08 | INFO     | scheduler | Price refresh started for 4 assets
+2026-03-27 19:01:22 | INFO     | scheduler | Price updated: GC=F $4548.6
+2026-03-27 19:01:23 | INFO     | scheduler | Price updated: AAPL $248.6
+2026-03-27 19:01:24 | INFO     | scheduler | Price updated: MSFT $357.58
+2026-03-27 19:01:24 | INFO     | scheduler | Price updated: SPY $635.17
+2026-03-27 19:01:29 | INFO     | scheduler | Scheduler stopped
+2026-03-27 19:01:29 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Added job "Price refresh" to job store "default"
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Added job "News refresh" to job store "default"
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Added job "Insight refresh" to job store "default"
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Scheduler started
+2026-03-27 19:29:00 | INFO     | scheduler | Scheduler started  price=5m  news=15m  insight=60m  market_hours_only=True
+2026-03-27 19:29:00 | INFO     | scheduler | Scheduler stopped
+2026-03-27 19:29:00 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-03-27 19:29:00 | INFO     | scheduler | Price refresh started for 4 assets
+2026-03-27 19:29:01 | INFO     | scheduler | Price updated: GC=F $4547.3
+2026-03-27 19:29:02 | INFO     | scheduler | Price updated: AAPL $248.4
+2026-03-27 19:29:02 | INFO     | scheduler | Price updated: MSFT $357.55
+2026-03-27 19:29:03 | INFO     | scheduler | Price updated: SPY $634.94
+2026-03-27 19:29:03 | INFO     | scheduler | News refresh started for 4 assets
+2026-03-27 19:29:06 | INFO     | scheduler | News updated: GC=F (5 articles)
+2026-03-27 19:29:09 | INFO     | scheduler | News updated: AAPL (5 articles)
+2026-03-27 19:29:13 | INFO     | scheduler | News updated: MSFT (5 articles)
+2026-03-27 19:29:16 | INFO     | scheduler | News updated: SPY (5 articles)
+2026-03-27 19:29:50 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZNOTREAL"}}}
+2026-03-27 19:29:50 | ERROR    | yfinance | $ZZZZZZZNOTREAL: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Added job "Price refresh" to job store "default"
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Added job "News refresh" to job store "default"
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Added job "Insight refresh" to job store "default"
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Scheduler started
+2026-03-28 18:12:19 | INFO     | scheduler | Scheduler started  price=5m  news=15m  insight=60m  market_hours_only=True
+2026-03-28 18:12:19 | INFO     | scheduler | Scheduler stopped
+2026-03-28 18:12:19 | INFO     | apscheduler.scheduler | Scheduler has been shut down
+2026-03-28 18:12:19 | INFO     | scheduler | Price refresh started for 4 assets
+2026-03-28 18:12:20 | INFO     | scheduler | Price updated: GC=F $4492.0
+2026-03-28 18:12:20 | INFO     | scheduler | Price updated: AAPL $248.8
+2026-03-28 18:12:21 | INFO     | scheduler | Price updated: MSFT $356.77
+2026-03-28 18:12:22 | INFO     | scheduler | Price updated: SPY $634.09
+2026-03-28 18:12:22 | INFO     | scheduler | News refresh started for 4 assets
+2026-03-28 18:12:25 | INFO     | scheduler | News updated: GC=F (5 articles)
+2026-03-28 18:12:29 | INFO     | scheduler | News updated: AAPL (5 articles)
+2026-03-28 18:12:33 | INFO     | scheduler | News updated: MSFT (5 articles)
+2026-03-28 18:12:36 | INFO     | scheduler | News updated: SPY (5 articles)
+2026-03-28 18:12:44 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZNOTREAL"}}}
+2026-03-28 18:12:45 | ERROR    | yfinance | $ZZZNOTREAL: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-28 18:13:30 | ERROR    | yfinance | HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZZZZZZZNOTREAL"}}}
+2026-03-28 18:13:30 | ERROR    | yfinance | $ZZZZZZZNOTREAL: possibly delisted; no price data found  (period=1mo) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-28 18:23:27 | INFO     | config | CONFIG_LOADED | Source: /workspaces/Prj_utils/Financial_Insight/.env
+2026-03-28 18:23:27 | INFO     | config | Configuration initialization complete

@@ -1,0 +1,45 @@
+assets:
+  commodities:
+    gold:
+      ticker: "GC=F"
+      name: "Gold Futures"
+      category: "commodity"
+      default_period: "1mo"
+      default_interval: "1d"
+
+  stocks:
+    AAPL:
+      ticker: "AAPL"
+      name: "Apple Inc."
+      category: "stock"
+      default_period: "1mo"
+      default_interval: "1d"
+
+    MSFT:
+      ticker: "MSFT"
+      name: "Microsoft Corp."
+      category: "stock"
+      default_period: "1mo"
+      default_interval: "1d"
+
+    SPY:
+      ticker: "SPY"
+      name: "SPDR S&P 500 ETF"
+      category: "etf"
+      default_period: "1mo"
+      default_interval: "1d"
+
+defaults:
+  period: "1mo"
+  interval: "1d"
+  currency: "USD"
+
+refresh:
+  price_interval_minutes: 5
+  news_interval_minutes: 15
+  insight_interval_minutes: 60
+  market_hours_only: true
+  market_open: "09:30"
+  market_close: "16:00"
+  timezone: "US/Eastern"
+  price_change_threshold_pct: 2.0

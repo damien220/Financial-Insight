@@ -1,0 +1,41 @@
+/* Financial Insight Dashboard — custom styling */
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background-color: #1e1e2f;
+    border: 1px solid #2d2d44;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+div[data-testid="stMetric"] label {
+    color: #a0a0b8;
+    font-size: 0.85rem;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #14141f;
+}
+
+/* News cards */
+.news-item {
+    border-left: 3px solid #4a9eff;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    background-color: #1a1a2e;
+    border-radius: 0 6px 6px 0;
+}
+
+/* Insight panel */
+.insight-box {
+    border: 1px solid #2d2d44;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #1a1a2e;
+}
+
+/* Trend badges */
+.trend-bullish { color: #00c853; font-weight: bold; }
+.trend-bearish { color: #ff1744; font-weight: bold; }
+.trend-sideways { color: #ffc107; font-weight: bold; }
