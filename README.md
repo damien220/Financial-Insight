@@ -253,7 +253,6 @@ If you find Financial Insight useful, consider supporting its development. Your 
 | **Buy Me a Coffee** | One-time or monthly support  | [buymeacoffee.com/ashrafalnas](https://buymeacoffee.com/ashrafalnas)       |
 | **Patreon**         | Recurring monthly membership | [patreon.com/UnrealPatr](https://www.patreon.com/c/UnrealPatr?vanity=user) |
 
-> Replace `YOUR_USERNAME` with your actual platform usernames before publishing.
 
 ---
 
